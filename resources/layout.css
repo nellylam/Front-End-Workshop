@@ -51,6 +51,17 @@ a:hover {
 	margin-bottom: 30px;
 }
 
+#main {
+	border-left: 1px solid #999;
+	padding-left: 10px;
+	width: 70%;
+	float: right;
+}
+
+.content #nav {
+	float: left;
+	width: 25%;
+}
 
 /* Ignore this for now, it is special code needed to fix the layout after using the "float" rules */
 .clearfix:before, .clearfix:after { content:""; display:table; }
